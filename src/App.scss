@@ -1,0 +1,40 @@
+.App {
+  height: 100%;
+  width: 100vw;
+  background-color: #f6e467;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  .title {
+    font-size: 2.2rem;
+    margin-top: 8vw;
+  }
+  .radar-container {
+    margin-top: 12vw;
+    background-image: url("/scale.png");
+    width: 92vw;
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+    .arm {
+      transform-origin: 50% 80%;
+      height: 55vw;
+    }
+  }
+  .btn {
+    margin-top: auto;
+    margin-bottom: 20vw;
+    width: 48vw;
+    height: 48vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  footer {
+    margin-bottom: 0.5rem;
+  }
+}

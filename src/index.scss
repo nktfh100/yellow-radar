@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:regular,bold&subset=latin,latin-ext');
+
+html, body, #root {
+  height: 100%;
+  background-color: #f6e466;
+  font-family: 'Rubik', arial;
+  user-select: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
