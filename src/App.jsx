@@ -112,7 +112,7 @@ function App() {
       <div className="radar-container">
         <img style={{ transform: `rotate(${clamp(deg, minDeg, maxDeg)}deg)` }} src={armImg} className="arm" />
       </div>
-      <div style={{backgroundImage: isOn ? "url(/'on_btn.png')" : "url('/off_btn.png')"}} alt="" className="btn" />
+      <div style={{backgroundImage: isOn ? "url('/on_btn.png')" : "url('/off_btn.png')"}} alt="" className="btn" />
       <footer>By nktfh100</footer>
     </div>
   );
